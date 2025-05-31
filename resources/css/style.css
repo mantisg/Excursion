@@ -1,22 +1,41 @@
 html {
     font-size: 16px;
-    background-color: #04001a;
+    background-color: #000000;
+    font-family: Verdana;
 }
 
 body {
-    background-color: #04001a;
+    background-color: #000000;
     text-align: center;
+    color: white;
 }
 
 h1 {
-    font-family: Verdana;
     font-weight: normal;
     font-size: 50px;
-    margin: 0, auto;
-    color: white;
+    margin: 0px, auto;
+}
+
+h2 {
+    font-weight: 300;
+    font-size: 42px;
 }
 
 a {
     color: aquamarine;
     font-size: 1rem;
+}
+
+p {
+    margin: 0px, auto;
+}
+
+span {
+    color: gray;
+    font-size: 21px;
+}
+
+footer p {
+    text-align: right;
+    color: gray;
 }
